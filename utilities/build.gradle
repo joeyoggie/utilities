@@ -117,6 +117,11 @@ dependencies {
     api 'com.github.prolificinteractive:material-calendarview:2.0.1'
     api 'com.jakewharton.threetenabp:threetenabp:1.2.0'
 
+    //verification edittext
+    implementation 'com.justkiddingbaby:vercodeedittext:1.1.0'
+    implementation 'com.poovam:pin-edittext-field:1.2.1'
+    implementation 'com.github.aabhasr1:OtpView:1.1.1'
+
     //play services
     api 'com.google.android.gms:play-services:12.0.1'
 }
