@@ -22,5 +22,5 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
-    implementation 'com.github.joeyoggie:utilities:1.9'
+    implementation 'com.github.joeyoggie:utilities:2.0'
 }
