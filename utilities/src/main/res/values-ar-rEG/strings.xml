@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Utilities</string>
+    <string name="cancel">الغاء</string>
+    <string name="confirm">تأكيد</string>
+    <string name="error">خطأ</string>
+    <string name="exit">خروج</string>
+    <string name="no">لا</string>
+    <string name="skip">تخطي</string>
+    <string name="yes">نعم</string>
+    <string name="start">إبدأ</string>
+    <string name="ok">Ok</string>
+    <string name="save">حفظ</string>
+    <string name="next">التالى</string>
+    <string name="phone_number">رقم الهاتف</string>
+</resources>

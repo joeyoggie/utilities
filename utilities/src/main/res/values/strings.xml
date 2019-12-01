@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Utilities</string>
+
+    <string name="phone_number">Phone Number</string>
+
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="skip">Skip</string>
+    <string name="confirm">Confirm</string>
+    <string name="save">Save</string>
+    <string name="error">Error</string>
+    <string name="exit">Exit</string>
+    <string name="start">Start</string>
+    <string name="next">Next</string>
+</resources>
