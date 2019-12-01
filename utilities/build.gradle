@@ -30,74 +30,74 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
-    implementation 'androidx.appcompat:appcompat:1.1.0'
-    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
-    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    api 'androidx.appcompat:appcompat:1.1.0'
+    api 'androidx.constraintlayout:constraintlayout:1.1.3'
+    api 'androidx.legacy:legacy-support-v4:1.0.0'
 
 
-    implementation 'com.google.android.material:material:1.0.0'
+    api 'com.google.android.material:material:1.0.0'
 
 
     //recyclerview
-    implementation 'androidx.recyclerview:recyclerview:1.1.0'
+    api 'androidx.recyclerview:recyclerview:1.1.0'
 
     // cardview
-    implementation 'androidx.cardview:cardview:1.0.0'
+    api 'androidx.cardview:cardview:1.0.0'
 
     // ViewModel and LiveData
-    implementation "androidx.lifecycle:lifecycle-extensions:2.1.0"
+    api "androidx.lifecycle:lifecycle-extensions:2.1.0"
     annotationProcessor "androidx.lifecycle:lifecycle-compiler:2.1.0"
 
     //navigation components
-    implementation 'androidx.navigation:navigation-fragment:2.1.0'
-    implementation 'androidx.navigation:navigation-ui:2.1.0'
+    api 'androidx.navigation:navigation-fragment:2.1.0'
+    api 'androidx.navigation:navigation-ui:2.1.0'
 
     //room database
     def room_version = "2.2.2" // 2.2.2 for latest stable version
-    implementation "androidx.room:room-runtime:$room_version"
+    api "androidx.room:room-runtime:$room_version"
     annotationProcessor "androidx.room:room-compiler:$room_version"
 
 
     //debug bridge
-    debugImplementation 'com.amitshekhar.android:debug-db:1.0.6'
+    api 'com.amitshekhar.android:debug-db:1.0.6'
 
     //rtl viewpager
-    implementation 'com.booking:rtlviewpager:1.0.1'
+    api 'com.booking:rtlviewpager:1.0.1'
 
     //photo viewier
-    implementation 'com.github.chrisbanes:PhotoView:2.1.3'
+    api 'com.github.chrisbanes:PhotoView:2.1.3'
 
     //circular imageview
-    implementation 'de.hdodenhof:circleimageview:3.0.0'
+    api 'de.hdodenhof:circleimageview:3.0.0'
 
     //image picker
-    implementation 'com.myhexaville:smart-image-picker:1.0.4'
+    api 'com.myhexaville:smart-image-picker:1.0.4'
 
     //volley
-    implementation 'com.android.volley:volley:1.1.1'
+    api 'com.android.volley:volley:1.1.1'
 
     //gson
-    implementation 'com.google.code.gson:gson:2.8.5'
+    api 'com.google.code.gson:gson:2.8.5'
 
     //glide
-    implementation('com.github.bumptech.glide:glide:4.7.1') {
+    api('com.github.bumptech.glide:glide:4.7.1') {
         exclude group: "com.android.support"
     }
 
     //animation
-    implementation 'com.daimajia.easing:library:2.0@aar'
-    implementation 'com.daimajia.androidanimations:library:2.3@aar'
+    api 'com.daimajia.easing:library:2.0@aar'
+    api 'com.daimajia.androidanimations:library:2.3@aar'
 
     //phone number util
     //phone field
-    implementation('com.lamudi.phonefield:phone-field:0.1.3@aar') {
+    api('com.lamudi.phonefield:phone-field:0.1.3@aar') {
         transitive = true
     }
 
     //libphonefield for parsing phone numbers
-    implementation 'com.googlecode.libphonenumber:libphonenumber:8.2.0'
+    api 'com.googlecode.libphonenumber:libphonenumber:8.2.0'
 
     //fonts calligraphy3
-    implementation 'io.github.inflationx:calligraphy3:3.1.1'
-    implementation 'io.github.inflationx:viewpump:2.0.3'
+    api 'io.github.inflationx:calligraphy3:3.1.1'
+    api 'io.github.inflationx:viewpump:2.0.3'
 }
