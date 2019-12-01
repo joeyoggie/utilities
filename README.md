@@ -1,5 +1,6 @@
-[![Release](https://jitpack.io/v/User/Repo.svg)]
+[![](https://jitpack.io/v/JoeyOggie/utilities.svg)]
 (https://jitpack.io/#JoeyOggie/utilities)
+
 
 A collection of utilities and sample methods I re-use in different projects. Some of them are not by me.
 
