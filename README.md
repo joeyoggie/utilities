@@ -7,7 +7,7 @@ A collection of utilities and sample methods I re-use in different projects. Som
 
 Instructions:
 
-Step 1. Add the JitPack repository to your build file
+Step 1. Add the JitPack repository to your project's build file
 
 Add it in your root build.gradle at the end of repositories:
 
@@ -18,7 +18,7 @@ Add it in your root build.gradle at the end of repositories:
 		}
 	}
 
-Step 2. Add the dependency
+Step 2. Add the dependency to the app module
 
 	dependencies {
 	        implementation 'com.github.joeyoggie:utilities:v2.2'
