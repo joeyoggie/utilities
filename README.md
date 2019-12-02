@@ -1,11 +1,12 @@
 ![](https://jitpack.io/v/JoeyOggie/utilities.svg)
 
-(https://jitpack.io/#JoeyOggie/utilities)
+https://jitpack.io/#JoeyOggie/utilities
 
 
 A collection of utilities and sample methods I re-use in different projects. Some of them are not by me.
 
 Instructions:
+
 Step 1. Add the JitPack repository to your build file
 
 Add it in your root build.gradle at the end of repositories:
