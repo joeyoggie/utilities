@@ -19,5 +19,13 @@ Add it in your root build.gradle at the end of repositories:
 Step 2. Add the dependency
 
 	dependencies {
-	        implementation 'com.github.joeyoggie:utilities:v1.3'
+	        implementation 'com.github.joeyoggie:utilities:v2.2'
+		
+		//add the below annotation processors since they aren't transitive and have to be included in each module
+		annotationProcessor 'com.jakewharton:butterknife-compiler:10.1.0'
+		annotationProcessor "androidx.lifecycle:lifecycle-compiler:2.1.0"
+    		//room database
+		def room_version = "2.2.2" // 2.2.2 for latest stable version
+    		annotationProcessor "androidx.room:room-compiler:$room_version"
+		
 	}
