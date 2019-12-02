@@ -7,7 +7,7 @@ A collection of utilities and sample methods I re-use in different projects. Som
 
 Instructions:
 
-Step 1. Add the JitPack repository to your project's build file
+Step 1. Add the JitPack repository to your project's build.gradle file
 
 Add it in your root build.gradle at the end of repositories:
 
@@ -18,16 +18,17 @@ Add it in your root build.gradle at the end of repositories:
 		}
 	}
 
-Step 2. Add the dependency to the app module
+Step 2. Add the following to your app module's build.gradle file
 
 	dependencies {
+
 	        implementation 'com.github.joeyoggie:utilities:v2.2'
 		
-		//add the below annotation processors since they aren't transitive and have to be included in each module
-		annotationProcessor 'com.jakewharton:butterknife-compiler:10.1.0'
-		annotationProcessor "androidx.lifecycle:lifecycle-compiler:2.1.0"
+		    //add the below annotation processors since they aren't transitive and have to be included in each module
+		    annotationProcessor 'com.jakewharton:butterknife-compiler:10.1.0'
+		    annotationProcessor "androidx.lifecycle:lifecycle-compiler:2.1.0"
     		//room database
-		def room_version = "2.2.2" // 2.2.2 for latest stable version
-    		annotationProcessor "androidx.room:room-compiler:$room_version"
+		    def room_version = "2.2.2" // 2.2.2 for latest stable version
+    	    annotationProcessor "androidx.room:room-compiler:$room_version"
 		
 	}
