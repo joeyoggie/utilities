@@ -1,4 +1,5 @@
-[![](https://jitpack.io/v/JoeyOggie/utilities.svg)]
+![](https://jitpack.io/v/JoeyOggie/utilities.svg)
+
 (https://jitpack.io/#JoeyOggie/utilities)
 
 
